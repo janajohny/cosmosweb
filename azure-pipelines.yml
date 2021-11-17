@@ -6,12 +6,12 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
-- task: TerraformTaskV2@2
-  inputs:
-    provider: 'azurerm'
-    command: 'init'
+#pool:
+#  vmImage: ubuntu-latest
+#- task: TerraformTaskV2@2
+#  inputs:
+#    provider: 'azurerm'
+#    command: 'init'
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
